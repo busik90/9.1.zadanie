@@ -3,12 +3,12 @@ function getTriangleArea(a, h) {
     result = a * h / 2;
   }
   else {
-    console.log('Nieprawidłowe dane.')
+    result = 'Nieprawidłowe dane.';
   }
   return result;
 }
 
-var triangleArea1 = getTriangleArea(10, 15),
+var triangleArea1 = getTriangleArea(0, 15),
     triangleArea2 = getTriangleArea(2, 5),
     triangleArea3 = getTriangleArea(20, 40);
 
